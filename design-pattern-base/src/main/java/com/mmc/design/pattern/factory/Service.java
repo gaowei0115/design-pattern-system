@@ -8,4 +8,11 @@ package com.mmc.design.pattern.factory;
  * @history: (version) author date desc
  */
 public interface Service {
+
+    /**
+     *
+     */
+    void method1();
+
+    void method2();
 }
