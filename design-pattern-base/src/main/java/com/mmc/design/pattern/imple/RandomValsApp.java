@@ -1,3 +1,5 @@
+package com.mmc.design.pattern.imple;
+
 /**
  * @packageName：com.mmc.design.pattern.imple
  * @desrciption:
@@ -6,4 +8,11 @@
  * @history: (version) author date desc
  */
 public class RandomValsApp {
+
+    public static void main(String[] args) {
+        System.out.println(RandomVals.random_int);
+        System.out.println(RandomVals.random_long);
+        System.out.println(RandomVals.random_float);
+        System.out.println(RandomVals.random_double);
+    }
 }

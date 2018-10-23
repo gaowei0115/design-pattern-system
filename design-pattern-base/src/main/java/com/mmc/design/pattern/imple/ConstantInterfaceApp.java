@@ -1,3 +1,5 @@
+package com.mmc.design.pattern.imple;
+
 /**
  * @packageName：com.mmc.design.pattern.imple
  * @desrciption:
@@ -6,4 +8,8 @@
  * @history: (version) author date desc
  */
 public class ConstantInterfaceApp {
+
+    public static void main(String[] args) {
+        System.out.println(ConstantsInterface.param);
+    }
 }
